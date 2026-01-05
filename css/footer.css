@@ -1,0 +1,49 @@
+footer {
+    background-color: var(--secondary-color);
+    /* Lilás */
+    color: var(--text-primary);
+    padding: 60px 0 20px;
+}
+
+footer h5 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: var(--accent-color);
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+footer .social-media {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer .social-media:hover {
+    color: var(--accent-color);
+}   

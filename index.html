@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aequilibrium Fisioterapia</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <div class="logo">
+                <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="logo" class="img-fluid">
+                    <h2 class="logo-text">Aequilibrium Fisioterapia</h2>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <a href="#appointment" class="btn btn-primary-custom rounded-pill">Agendar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto hero-content">
+                    <h1>Movimento com equilíbrio, cuidado com propósito</h1>
+                    <p>Aqui, cada sessão é pensada para o seu corpo e seus objetivos.
+                    </p>
+                    <p>Do pós-operatório ao retorno à vida ativa, acompanhamos você em cada passo.</p>
+                    <a href="#services" class="btn btn-primary-custom btn-lg rounded-pill">Conheça Nossos Serviços</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Serviços</h2>
+                <p>Oferecemos um cuidado completo com diversas especialidades para atender suas necessidades.</p>
+            </div>
+
+            <div id="carouselServicesDesktop" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="service-card">
+                                    <div class="service-icon"><i class="fa-solid fa-person-cane"></i></div>
+                                    <h4>Traumato-Ortopedia</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="service-card">
+                                    <div class="service-icon"><i class="fa-solid fa-head-side-mask"></i></div>
+                                    <h4>Reumatofuncional</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="service-card">
+                                    <div class="service-icon"><i class="bi bi-person-plus"></i></div>
+                                    <h4>Gerontologia</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="service-card">
+                                    <div class="service-icon"><i class="fa-regular fa-hand"></i> </div>
+                                    <h4>Terapia de Mão</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="service-card">
+                                    <div class="service-icon"><i class="fa-solid fa-crutch"></i>
+                                    </div>
+                                    <h4>Ortetização de Membros</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="service-card">
+                                    <div class="service-icon"><i class="bi bi-person-standing"></i></div>
+                                    <h4>Reeducação Postural Global</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-md-4">
+                                <div class="service-card">
+                                    <div class="service-icon"><i class="bi bi-stars"></i></div>
+                                    <h4>Terapias Manuais Integradas</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="service-card">
+                                    <div class="service-icon"><i class="bi bi-circle"></i></div>
+                                    <h4>MAT Pilates</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselServicesDesktop"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselServicesDesktop"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+
+            <div id="carouselServicesMobile" class="carousel slide d-block d-md-none" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fa-solid fa-person-cane"></i></div>
+                            <h4>Traumato-Ortopedia</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <<i class="fa-solid fa-head-side-mask"></i>
+                            </div>
+                            <h4>Reumatofuncional</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="service-card">
+                            <div class="service-icon"><i class="bi bi-person-plus"></i></div>
+                            <h4>Gerontologia</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fa-regular fa-hand"></i></div>
+                            <h4>Terapia de Mão</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fa-solid fa-crutch"></i></div>
+                            <h4>Ortetização de Membros</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="service-card">
+                            <div class="service-icon"><i class="bi bi-person-standing"></i></div>
+                            <h4>Reeducação Postural Global</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="service-card">
+                            <div class="service-icon"><i class="bi bi-stars"></i></div>
+                            <h4>Terapias Manuais Integradas</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="service-card">
+                            <div class="service-icon"><i class="bi bi-circle"></i></div>
+                            <h4>MAT Pilates</h4>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselServicesMobile"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselServicesMobile"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+
+            <div class="differentials-section mt-5 pt-4">
+                <h3 class="text-center differential-title">DIFERENCIAL</h3>
+                <div class="row g-4 justify-content-center text-center">
+                    <div class="col-md-3 col-6">
+                        <div class="differential-item">
+                            <i class="bi bi-activity mb-2 fs-1 text-primary"></i>
+                            <h5>Reabilitação motora</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="differential-item">
+                            <i class="bi bi-heart-pulse-fill mb-2 fs-1 text-primary"></i>
+                            <h5>Recuperação funcional</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="differential-item">
+                            <i class="bi bi-person-check-fill mb-2 fs-1 text-primary"></i>
+                            <h5>Tratamento individualizado</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="differential-item">
+                            <i class="fa-solid fa-hospital mb-2 fs-1 text-primary"></i>
+                            <h5>Conservador e Pós-operatório</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="assets/images/mariana.jpeg" alt="Consultório" class="about-img img-fluid">
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <h2>Sobre Aequilibrium Fisioterapia </h2>
+                    <p class="lead text-primary mb-4">Prática baseada em evidências científicas, cuidado guiado por
+                        empatia.</p>
+                    <p>“A Aequilibrium Fisioterapia é um consultório voltado à reabilitação funcional personalizada. O
+                        objetivo principal é ajudar você a recuperar movimentos, reduzir dores e retomar sua rotina com
+                        segurança e confiança. Para isso, a atuação integra diferentes especialidades –
+                        traumato-ortopedia, reumatofuncional, gerontologia, terapia da mão, ortetização de membros
+                        superiores, RPG, terapias manuais integradas e MAT Pilates – sempre com atendimento individual e
+                        condutas baseadas em evidências. Em cada sessão, o foco está em entender sua história, suas
+                        limitações e os objetivos que realmente importam para a sua vida. Mais do que tratar uma região
+                        do corpo, o cuidado é voltado para a sua funcionalidade, autonomia e qualidade de vida.”</p>
+                    <p> </p>
+                    <ul class="list-unstyled mt-4">
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Profissionais
+                            Especializados</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Equipamentos Modernos
+                        </li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Atendimento
+                            Personalizado</li>
+                    </ul>
+                    <a href="team.html" class="btn btn-primary-custom rounded-pill mt-3">Conheça nossa equipe</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="space" class="space-section">
+        <div class="container">
+            <div class="section-title text-center mb-5">
+                <h2>Conheça nosso espaço</h2>
+                <p>Um ambiente moderno e acolhedor, pensado para o seu bem-estar e recuperação.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal">
+                        <img src="assets/images/sala1.jpeg" alt="Recepção" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <h5>Recepção Acolhedora</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal">
+                        <img src="assets/images/sala3.jpeg" alt="Sala de Atendimento" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <h5>Salas Privativas</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal">
+                        <img src="assets/images/sala2.jpeg" alt="Pilates" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <h5>Studio de Pilates</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal">
+                        <img src="assets/images/sala4.jpeg" alt="Equipamentos" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <h5>Equipamentos Modernos</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="appointment" class="appointment-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-5 mb-lg-0 appointment-info">
+                    <h3>Agende sua avaliação</h3>
+                    <p>Dê o primeiro passo para sua reabilitação. Preencha o formulário e entraremos em contato para
+                        confirmar o agendamento.</p>
+
+                    <div class="contact-highlight">
+                        <i class="bi bi-whatsapp"></i>
+                        <div>
+                            <h6>WhatsApp</h6>
+                            <p>(21) 99999-9999</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="appointment-form-container">
+                        <form id="appointmentForm">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label">Nome Completo</label>
+                                        <input type="text" class="form-control" id="name" required
+                                            placeholder="Seu nome">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="phone" class="form-label">Telefone / WhatsApp</label>
+                                        <input type="tel" class="form-control" id="phone" required
+                                            placeholder="(XX) XXXXX-XXXX">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="service" class="form-label">Serviço de Interesse</label>
+                                <select class="form-select" id="service">
+                                    <option selected>Selecione um serviço</option>
+                                    <option value="Gerontologia">Gerontológia</option>
+                                    <option value="Mat Pilates">MAT Pilates</option>
+                                    <option value="Ortetização de membros">Ortetização de membros</option>
+                                    <option value="Reeducação Postural Global">Reeducação Postural Global</option>
+                                    <option value="Reumatofuncional">Reumatofuncional</option>
+                                    <option value="Terapia de mão">Terapia de mão</option>
+                                    <option value="Traumato-Ortopedia">Traumato-Ortopedia</option>
+                                    <option value="Outro">Outro</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Mensagem (Opcional)</label>
+                                <textarea class="form-control" id="message" rows="3"
+                                    placeholder="Conte um pouco sobre sua necessidade..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-appointment">Agendar no WhatsApp <i
+                                    class="bi bi-whatsapp ms-2"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close btn-close-white ms-auto" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="" class="img-fluid rounded" id="galleryModalImage" alt="Galeria">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>Aequilibrium Fisioterapia</h5>
+                    <p>Reabilitação e qualidade de vida ao seu alcance. Agende sua avaliação.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Links Rápidos</h5>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Contato</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-geo-alt me-2"></i> Avenida Nossa Senhora de Copacabana, 613 sala 1005 -
+                            Copacabana, Rio de Janeiro - RJ</li>
+                        <li><i class="bi bi-telephone me-2"></i> (21) 99999-9999</li>
+                        <li><i class="bi bi-envelope me-2"></i> mariana@aequilibrium.com</li>
+                    </ul>
+                    <div class="mt-3">
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                            class="text-white me-3"><i class="bi bi-instagram fs-5 social-media"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+                            class="text-white me-3"><i class="bi bi-facebook fs-5 social-media"></i></a>
+                        <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="text-white"><i
+                                class="bi bi-whatsapp fs-5 social-media"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Aequilibrium. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4f077d5d34.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

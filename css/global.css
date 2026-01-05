@@ -1,0 +1,54 @@
+:root {
+    --primary-color: #9B4FAE;
+    /* Violeta Cuidado */
+    --secondary-color: #E7D2F2;
+    /* Lilás Suave Clínico */
+    --accent-color: #D4739A;
+    /* Rosa Confiança */
+    --text-primary: #3C3A43;
+    /* Cinza Grafite */
+    --text-secondary: #8A8891;
+    /* Cinza Médio */
+    --light-bg: #F7F4FA;
+    /* Off-white Suave */
+    --gray-light: #D8D5DD;
+    /* Cinza Claro Neutro */
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-primary);
+    background-color: var(--white);
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+section {
+    padding: 80px 0;
+}
+
+/* Bootstrap Overrides */
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.text-secondary {
+    color: var(--text-secondary) !important;
+}
+
+.bg-light {
+    background-color: var(--light-bg) !important;
+}
