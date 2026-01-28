@@ -7,6 +7,7 @@
 ## 1.2 Tecnologias e Funcionalidades
 
 ### Tecnologias Utilizadas
+
 - **HTML5**: Estruturação semântica do conteúdo
 - **CSS3**: Estilização responsiva e moderna com flexbox e grid
 - **JavaScript**: Interatividade e validação de formulários
@@ -14,6 +15,7 @@
 - **Bootstrap Icons**: Ícones escaláveis e modernos
 
 ### Funcionalidades Principais
+
 - **Navegação fixa**: Barra de navegação fixa com menu responsivo para fácil acesso às seções
 - **Hero section**: Banner visual atrativo com chamada para ação
 - **Serviços em carousel**: Apresentação dos serviços (Traumato-Ortopedia, Reumatofuncional, Gerontologia, Neurologia, RPG, Pilates) em formato carrossel adaptado para desktop e mobile
@@ -65,4 +67,3 @@ Fisio/
 Projeto desenvolvido por **Andre Krykhtine Peres** sob licença acadêmica para a disciplina de **Front-End Web**.
 
 ---
-
