@@ -1,6 +1,6 @@
 # Aequilibrium Fisioterapia
 
-## 1.1 Descrição do Sistema (Mini-Mundo)
+## 1.1 Descrição do Sistema 
 
 **Aequilibrium Fisioterapia** é uma plataforma web responsiva dedicada a uma clínica de fisioterapia especializada em reabilitação funcional e bem-estar. O projeto apresenta um site moderno e intuitivo que oferece informações completas sobre os serviços de fisioterapia, equipe profissional, galeria das instalações e sistema de agendamento de consultas online. O site visa proporcionar aos pacientes uma experiência digital fluida para conhecer os serviços, visualizar o espaço físico da clínica e agendar suas avaliações de forma rápida e prática.
 
