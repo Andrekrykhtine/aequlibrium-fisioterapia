@@ -43,6 +43,10 @@ function getFormData() {
   };
 }
 
+/**
+ * @param {HTMLFormElement} form
+ * @returns {boolean}
+ */
 function validateForm(form) {
   if (!form.checkValidity()) {
     form.reportValidity();
@@ -51,6 +55,9 @@ function validateForm(form) {
   return true;
 }
 
+/**
+ * @param {Object} data
+ */
 function sendToWhatsApp(data) {
   const whatsappNumber = "5511999999999";
 

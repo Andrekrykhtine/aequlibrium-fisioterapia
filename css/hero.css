@@ -39,3 +39,41 @@
     background-color: var(--accent-color);
     color: var(--white);
 }
+
+/* Responsive Hero Section */
+@media (max-width: 991px) {
+    .hero-section {
+        height: auto;
+        min-height: 70vh;
+        padding: 80px 0;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        min-height: 60vh;
+        padding: 150px 0 60px 0;
+        background-position: center;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .hero-content p {
+        font-size: 1.1rem;
+        padding: 0 15px;
+    }
+
+    .hero-section .btn-primary-custom {
+        margin-top: 40px;
+        padding: 15px 30px;
+        width: 100%;
+        display: block;
+    }
+}
